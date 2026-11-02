@@ -1,0 +1,27 @@
+D²Mamba
+Copyright 2026 Chang Yu, Siqing Li, Yuanchen Liu, Zhenyu Bu, Luming Yang, Alper Yilmaz
+
+This product includes software developed by third parties:
+
+- MMSegmentation (https://github.com/open-mmlab/mmsegmentation)
+  Copyright 2020 The MMSegmentation Authors. Apache License 2.0.
+  tools/train.py, tools/test.py, tools/dist_*.sh and parts of the decode-head
+  / dataset glue are adapted from MMSegmentation.
+
+- VSSD (https://github.com/YuHengsss/VSSD)
+  d2mamba/models/vssd_backbone.py and d2mamba/models/mamba_util.py are adapted
+  from VSSD. The upstream repository did not include a license file at the time
+  of release; see THIRD_PARTY_LICENSES.md.
+
+- DefMamba (https://github.com/leiyeliu/DefMamba)
+  d2mamba/models/defmamba.py is adapted from DefMamba. The upstream repository
+  did not include a license file at the time of release; see
+  THIRD_PARTY_LICENSES.md.
+
+- VMamba (https://github.com/MzeroMiko/VMamba)
+  Copyright (c) 2024 MzeroMiko. MIT License.
+  kernels/selective_scan and parts of the VSSD/DefMamba code derive from VMamba.
+
+- Mamba (https://github.com/state-spaces/mamba)
+  Copyright 2023 Tri Dao, Albert Gu. Apache License 2.0.
+  Used as a dependency (mamba-ssm); the selective-scan kernel is derived from it.

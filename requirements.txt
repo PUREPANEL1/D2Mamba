@@ -1,0 +1,11 @@
+# Install CUDA-enabled PyTorch first (developed with torch 2.1 + CUDA 11.8), e.g.
+#   pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
+# then MMCV with compiled ops via openmim (mim install "mmcv==2.1.0"),
+# and the selective-scan kernel (kernels/selective_scan) or mamba-ssm. See README.
+mmengine>=0.10.3,<0.11
+mmsegmentation==1.2.2
+timm==0.4.12
+einops>=0.7,<1.0
+numpy<2
+opencv-python>=4.8,<5
+packaging

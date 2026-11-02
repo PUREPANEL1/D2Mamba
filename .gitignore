@@ -1,0 +1,21 @@
+# data and outputs
+data/
+work_dirs/
+*.pth
+*.pt
+*.ckpt
+*.log
+*.log.json
+logs/
+*.xlsx
+# python / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.so
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
