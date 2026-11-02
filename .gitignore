@@ -1,7 +1,7 @@
 # data and outputs
 data/
 work_dirs/
-*.pth
+
 *.pt
 *.ckpt
 *.log
