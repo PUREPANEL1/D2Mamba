@@ -174,6 +174,12 @@ Labels are `0` background, `1` EX, `2` MA, `3` SE, and `4` HE. Manifest paths ar
 
 </details>
 
+## 📦 Weights
+
+Trained D²Mamba model Weights are available on [OneDrive](https://1drv.ms/f/c/eb46dc68b4bb7490/IgAFpTRgHLE2T7LiwvprZMUpAfWcwR56iHuh9XSm4uCKBlg?e=MNE7ru).
+
+Download the desired weight and evaluate it using its corresponding fold configuration. See the **Training and evaluation** section below for the evaluation command.
+
 ## 🚀 Training and evaluation
 
 **Train one fold:**
